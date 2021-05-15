@@ -11,7 +11,7 @@ import javax.validation.constraints.NotNull;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class NewExerciseDto {
+public class ExerciseDtoRequest {
 
     @NotNull
     private String name;
